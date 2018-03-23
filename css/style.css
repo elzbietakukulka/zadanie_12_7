@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800');
+
+* { 
+	box-sizing: border-box; 
+	padding: 0; 
+	margin: 0; 
+}
+
+
+/* HEADERS */
+h1 { 
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 40px; 
+	padding: 20px 0; 
+	text-align: center; 
+	color: #47454A;
+	text-transform: uppercase;  
+}
+
+h2 { 
+	font-family: 'Coda Caption', sans-serif;
+	text-transform: uppercase; 
+	text-shadow: 2px 2px 5px black; 
+	color: #47454A;
+	font-size: 30px; 
+}
+
+
+
+.create-column {
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 20px;
+	margin: auto;
+	padding: 5px;
+	background-color: #E3E5E9;
+	width: 200px;
+	display: block;
+	border-radius: 10px;
+}
+
+.column-container {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.column {
+	border: 2px solid #47454A;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #47454A;
+	width: 30%;
+	margin: 2%;
+	min-height: 600px;
+}
+
+.column-title {
+	text-align: center;
+	height: 70px;
+	background-color: #CD8C77;
+	line-height: 70px;
+}
+
+.btn-delete {
+	position: relative;
+	top: -50px;
+	left: 10px;
+	border-radius: 50%;
+	font-size: 20px;
+	line-height: 20px;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #47454A;
+	box-shadow: 5px 5px 10px #47454A;
+	color: #47454A;
+	font-weight: bold;
+}
+
+.column-add-card {
+	display: block;
+	margin: auto;
+	font-family: 'Coda Caption', sans-serif;
+	padding: 5px;
+	background-color: #E3E5E9;
+	border-radius: 10px;
+	position: relative;
+	top: -10px;
+	box-shadow: 5px 5px 10px #47454A;
+	border: 1px solid #47454A;
+}
+
+.column-card-list {
+	display: block;
+	padding: 10px;
+	min-height: 400px;
+	list-style-type: none;
+}
+
+.card {
+	list-style-type: none;
+	background-color: #B39FB8;
+	text-align: left;
+	min-height: 90px;
+	width: 90%;
+	margin: 20px auto;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #47454A;
+}
+
+.card .btn-delete {
+	position: relative;
+	top: -5px;
+	left: -5px;
+	font-size: 15px;
+	line-height: 15px;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #47454A;
+	box-shadow: 5px 5px 10px #47454A;
+	color: #47454A;
+	font-weight: bold;
+
+}
+
+.card-description {
+	line-height: 20px;
+}
